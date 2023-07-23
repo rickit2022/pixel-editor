@@ -1,0 +1,10 @@
+This project is group 65's submission for Lancaster University's SCC210 module - a pixel-based graphics package. 
+
+The team members are:
+Dominic Thorpe
+Elliot Groombridge
+Qian Siang Ong (Brandon)
+Henry Nguyen
+Tomas Infante Addie
+
+All icons are attributed to https://www.flaticon.com/free-icons/  (icons created by Freepik)

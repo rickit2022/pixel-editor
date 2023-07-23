@@ -1,0 +1,45 @@
+Welcome to Group 65's Pixel-based Editor!
+This is the tutorial section for using the application.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Running the program (using CLI):
+- Compile the program using "javac *.java" while on the main program directory.
+- Start the program by typing "java PixelEditor".
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Navigating around the program:
+- To see the function and tips for each tool, hover your mouse over the icon of the tool.
+List of tools (Outer right of the program, from top to bottom):
+- Hand: Use the hand to select an area on the canvas, this area can then be cut (CTRL + X), copied (CTRL + C) and pasted (CTRL + V).
+- Pencil: Allows the user to draw on the canvas
+- Eraser: Allows the user to erase a pixel on the canvas
+- Multi-Tool: Clicking on the Mouse Button 2 (Scroll Wheel Button) interchanges between the Pencil and Eraser Tool. 
+- Thickness changer: Change the amount of pixels to be modified in one click - in other words - the thickness of the lines drawn.
+- Canvas resolution changer: Specify the size of the canvas in terms of pixels
+- Clear canvas: Reset the canvas to its original state
+- Lighten/Darken tool: Adjust the lightness of a painted pixel of the canvas. Click/Hold the LMB to lighten and RMB to darken.
+- Bucket tool: Fill a contained area of pixels
+- Symmetry tool: Click the button to toggle between vertical and horizontal symmetry. When a line of symmetry has been selected on the canvas, 
+the pixels that the user draws will be  mirrored with respect to the line of symmetry. Hold the middle mouse button to view the line of symmetry.
+- Circle tool: Create a circle-shaped drawing on the canvas
+- Rectangle tool: Create a rectangle-shaped drawing on the canvas
+- Colour palette (bottom-center): Allows user to specify the colour to be used with other tools
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Colour palette terminology:
+- Swatches: Predefined colors which can be selected as-is
+- HSV: hue, saturation(intensity of the colour) and value(brightness of the colour) which requires to be set
+- HSL: hue, saturation and lightness. Similar to HSV, but colours are defined based on their lightness
+- RGB: red, green and blue
+- CMYK: stands for cyan, magneta, yellow and key (black). Only really used if you're trying to print something
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. List of available shortcuts:
+CTRL + N: create a new file
+CTRL + O: open an exisiting canvas
+CTRL + S: save the current canvas
+CTRL + X: cut selected pixels
+CTRL + C: copy selected pixels
+CTRL + V: paste copied pixels
+CTRL + Z: undo an action
+CTRL + Y: redo
+CTRL + F: toggle fullscreen
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Notes:
+- Special feature : When drawing or erasing, press SHIFT while on the canvas to use this tool in a straight-line manner.
